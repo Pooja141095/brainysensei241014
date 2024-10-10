@@ -1,0 +1,63 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Login</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="images/logo.png" alt="Gym Logo">
+                </a>
+            </div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="nutrition.html">Nutrition</a>
+                <a href="blog.html">Blog</a>
+                <a href="login.html">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login Form -->
+    <main>
+        <form id="login-form" action="home.html" method="post">
+            <h2>Login</h2>
+            
+            <label for="login_email">Email:</label>
+            <input type="email" id="login_email" name="login_email" required>
+            
+            <label for="login_password">Password:</label>
+            <input type="password" id="login_password" name="login_password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Gym Name. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#" target="_blank">
+                    <img src="images/facebook-icon.png" alt="Facebook" width="24">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="images/twitter-icon.png" alt="Twitter" width="24">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="images/instagram-icon.png" alt="Instagram" width="24">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

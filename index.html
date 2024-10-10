@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym website </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+     <!-- Header -->
+     <header>
+        <div class="container">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="images/logo.png" alt="Gym Logo">
+                </a>
+            </div>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="nutrition.html">Nutrition</a>
+                <a href="blog.html">Blog</a>
+                <a href="login.html">Logout</a>
+            </nav>
+        </div>
+    </header>
+     <!-- Signup Form -->
+     <main>
+        <form id="signup-form" action="home.html" method="post">
+            <h2>Sign Up</h2>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            
+            <label>Gender:</label>
+            <div class="radio-group">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male" class="inline-label">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female" class="inline-label">Female</label>
+            </div>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </main>
+   <!-- Footer -->
+   <footer>
+    <div class="container">
+        <p>&copy; 2024 Your Gym Name. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-facebook">
+                    <span class="icon"> Facebook </span>
+                </i>
+                <!-- <img src="images/facebook.png" alt="Facebook" width="24"> -->
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-twitter">twitter</i>
+                <!-- <img src="images/twitter-icon.png" alt="Twitter" width="24"> -->
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-instagram">instagram</i>
+                <!-- <img src="images/instagram-icon.png" alt="Instagram" width="24"> -->
+            </a>
+        </div>
+    </div>
+<!-- </footer> -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Your Gym Name. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook" width="24">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter" width="24">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram" width="24">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript for Form Validation -->
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
